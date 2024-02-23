@@ -71,9 +71,11 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--footer-white-color);
+    margin-top: 16px;
 }
 .footer {
     background-color: var(--background-dark);
+    padding: 100px 1020px 100px 156px;
 }
 .hero-section {
     background-color: var(--background-dark);
