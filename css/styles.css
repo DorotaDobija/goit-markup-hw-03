@@ -125,6 +125,7 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-top: 8px;
 }
 .team-section {
     background-color: var(--footer-white-color);
@@ -148,4 +149,12 @@ ul {
 .nav-list {
     display: flex;
     gap: 40px;
+}
+.hidden-heading {
+    display: none;
+}
+.first-section-list {
+    display: flex;
+    gap: 24px;
+    padding: 120px 156px;
 }
