@@ -1,0 +1,117 @@
+:root {
+    --main-color: #434455;
+    --heading-color: #2e2f42;
+    --blue-color: #4d5ae5;
+    --footer-white-color: #f4f4fd;
+    --main-font-family: 'Roboto', sans-serif;
+    --second-font-family: "Raleway", sans-serif;
+    --background-dark: #2e2f42;
+    --white-color: #fff;
+    --focus-color: #404bbf;
+}
+body {
+    font-family: var(--main-font-family);
+    color: var(--main-color);
+    background-color: var(--white-color);
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+.logo {
+    font-family: var(--second-font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--blue-color);
+}
+.logo-footer {
+    color: var(--footer-white-color)
+}
+.logo-nav {
+    color: var(--heading-color);
+}
+
+.nav-heading {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--heading-color);
+}
+.nav-heading:hover,
+.nav-heading:focus {
+    color: var(--focus-color);
+}
+.contact-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+    font-style: normal;
+}
+.contact-link:focus, .contact-link:hover {
+    color: var(--focus-color)
+}
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--footer-white-color);
+}
+.footer {
+    background-color: var(--background-dark);
+}
+.hero-section {
+    background-color: var(--background-dark);
+}
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--white-color);
+}
+.btn {
+    background: var(--blue-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white-color);
+    cursor: pointer;
+}
+.btn:focus, .btn:hover {
+    background-color: var(--focus-color);
+}
+.section-heading {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--heading-color);
+}
+.second-heading {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--heading-color);
+}
+.section-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.team-section {
+    background-color: var(--footer-white-color);
+}
+.team-list-item {
+    background-color: var(--white-color);
+}
