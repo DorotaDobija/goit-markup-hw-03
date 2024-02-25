@@ -17,68 +17,68 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <div class=".container">
-      <header>
-        <!-- NAWIGATION -->
-        <div class="nav-box">
-          <nav class="logo-nav-box">
-            <a class="logo" href="./index.html"
-              >Web<span class="logo-nav">Studio</span></a
-            >
-            <ul class="nav-list">
-              <li><a href="./index.html" class="nav-heading">Studio</a></li>
-              <li><a class="nav-heading" href="">Portfolio</a></li>
-              <li><a class="nav-heading" href="">Contacts</a></li>
-            </ul>
-          </nav>
-          <address class="contact-link">
-            <ul class="contact-list">
-              <li>
-                <a class="contact-link" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li>
-                <a class="contact-link" href="tel:+110001111111"
-                  >+11 (000) 111-11-11</a
-                >
-              </li>
-            </ul>
-          </address>
-        </div>
-      </header>
-      <main>
-        <!-- HERO SECTION -->
-        <div class="hero-section">
-          <h1 class="hero-title">Effective Solutions<br />for Your Business</h1>
-          <button class="btn" type="button">Order Service</button>
-        </div>
-        <!-- FIRST SECTION -->
-        <section class="section wrapper">
+    <header class="header-box container">
+      <!-- NAWIGATION -->
+      <div class="nav-box">
+        <nav class="logo-nav-box">
+          <a class="logo" href="./index.html"
+            >Web<span class="logo-nav">Studio</span></a
+          >
+          <ul class="nav-list">
+            <li><a href="./index.html" class="nav-heading">Studio</a></li>
+            <li><a class="nav-heading" href="">Portfolio</a></li>
+            <li><a class="nav-heading" href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="contact-link">
+          <ul class="contact-list">
+            <li>
+              <a class="contact-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="contact-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+    </header>
+    <main>
+      <!-- HERO SECTION -->
+      <section class="hero-section">
+        <h1 class="hero-title">Effective Solutions<br />for Your Business</h1>
+        <button class="btn" type="button">Order Service</button>
+      </section>
+      <!-- FIRST SECTION -->
+      <section>
+        <div class="section container wrapper">
           <h2 class="hidden-heading">Second list</h2>
           <ul class="first-section-list">
-            <li>
+            <li class="first-section-list-item">
               <h3 class="second-heading">Strategy</h3>
               <p class="section-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li>
+            <li class="first-section-list-item">
               <h3 class="second-heading">Punctuality</h3>
               <p class="section-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li>
+            <li class="first-section-list-item">
               <h3 class="second-heading">Diligence</h3>
               <p class="section-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li>
+            <li class="first-section-list-item">
               <h3 class="second-heading">Technologies</h3>
               <p class="section-text">
                 Design practice focused on digital experiences. We bring forth a
@@ -86,9 +86,11 @@
               </p>
             </li>
           </ul>
-        </section>
-        <!-- TEAM SECTION -->
-        <section class="team-section section">
+        </div>
+      </section>
+      <!-- TEAM SECTION -->
+      <section>
+        <div class="team-section container section">
           <h2 class="section-heading">Our Team</h2>
           <ul class="team-list">
             <li class="team-list-item">
@@ -99,7 +101,7 @@
                 class="team-list-img"
               />
               <div class="team-heading-box">
-                <h3 class="second-heading">Mark Guerrero</h3>
+                <h3 class="second-heading team-heading">Mark Guerrero</h3>
                 <p class="section-text">Product Designer</p>
               </div>
             </li>
@@ -111,14 +113,19 @@
                 class="team-list-img"
               />
               <div class="team-heading-box">
-                <h3 class="second-heading">Tom Ford</h3>
+                <h3 class="second-heading team-heading">Tom Ford</h3>
                 <p class="section-text">Frontend Developer</p>
               </div>
             </li>
             <li class="team-list-item">
-              <img src="./images/woman.jpg" alt="woman" width="264" />
+              <img
+                src="./images/woman.jpg"
+                alt="woman"
+                width="264"
+                class="team-list-img"
+              />
               <div class="team-heading-box">
-                <h3 class="second-heading">Camila Garcia</h3>
+                <h3 class="second-heading team-heading">Camila Garcia</h3>
                 <p class="section-text">Marketing</p>
               </div>
             </li>
@@ -130,45 +137,47 @@
                 class="team-list-img"
               />
               <div class="team-heading-box">
-                <h3 class="second-heading">Daniel Wilson</h3>
+                <h3 class="second-heading team-heading">Daniel Wilson</h3>
                 <p class="section-text">UI Designer</p>
               </div>
             </li>
           </ul>
-        </section>
-        <!-- PORTFOLIO SECTION -->
-        <section class="section wrapper">
+        </div>
+      </section>
+      <!-- PORTFOLIO SECTION -->
+      <section>
+        <div class="section container wrapper">
           <h2 class="section-heading">Our Portfolio</h2>
           <ul class="portfolio-list">
-            <li>
+            <li class="portfolio-list-item">
               <img src="./images/app.jpg" alt="app" width="360" />
               <div class="portfolio-heading-box">
                 <h3 class="second-heading">Banking App</h3>
                 <p class="section-text">App</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-list-item">
               <img src="./images/phone.jpg" alt="phone" width="360" />
               <div class="portfolio-heading-box">
                 <h3 class="second-heading">Cashless Payment</h3>
                 <p class="section-text">Marketing</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-list-item">
               <img src="./images/laptop.jpg" alt="laptopandphone" width="360" />
               <div class="portfolio-heading-box">
                 <h3 class="second-heading">Meditation App</h3>
                 <p class="section-text">App</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-list-item">
               <img src="./images/insidecar.jpg" alt="insidecar" width="360" />
               <div class="portfolio-heading-box">
                 <h3 class="second-heading">Taxi Service</h3>
                 <p class="section-text">Marketing</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-list-item">
               <img
                 src="./images/phonescreen.jpg"
                 alt="phonescreen"
@@ -179,7 +188,7 @@
                 <p class="section-text">Design</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-list-item">
               <img
                 src="./images/womaninsweater.jpg"
                 alt="woman in sweater"
@@ -191,18 +200,20 @@
               </div>
             </li>
           </ul>
-        </section>
-      </main>
-      <!-- FOOTRER  -->
-      <footer class="footer">
-        <a class="logo" href="./index.html"
+        </div>
+      </section>
+    </main>
+    <!-- FOOTRER  -->
+    <footer>
+      <div class="footer container">
+        <a class="logo footer-link" href="./index.html"
           >Web<span class="logo-footer">Studio</span></a
         >
         <p class="footer-text">
           Increase the flow of customers and sales for your business with
           digital marketing & growth solutions.
         </p>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>
