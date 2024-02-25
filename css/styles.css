@@ -187,7 +187,18 @@ ul {
 }
 .team-heading-box {
     text-align: center;
-    padding: 32px 16px;
+    padding: 16px 32px;
+}
+/* PORTFOLIO SECTION */
+.portfolio-list {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.portfolio-heading-box {
+    padding-top: 16px;
+    padding-bottom: 16px;
+
 }
 /* FOOTER */
 .footer-text {
