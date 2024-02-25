@@ -87,7 +87,6 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 156px;
 }
 .contact-list {
     display: flex;
@@ -177,7 +176,16 @@ img {
     letter-spacing: 0.02em;
 }
 .visually-hidden {
-    display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 .first-section-list {
     display: flex;
@@ -220,7 +228,6 @@ width: calc((100% - 48px) / 3);
     border: 1px solid #e7e9fc;
     border-top: none;
     padding: 32px 16px;
-
 }
 /* FOOTER */
 .footer-text {
