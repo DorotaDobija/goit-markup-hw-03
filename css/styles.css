@@ -87,6 +87,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 24px 0;
 }
 .contact-list {
     display: flex;
@@ -148,6 +149,7 @@ img {
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin: 0 auto;
 }
 .btn:focus, .btn:hover {
     background-color: var(--focus-color);
